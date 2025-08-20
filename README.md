@@ -2,6 +2,10 @@
 
 Gameboy emulator written in Zig language (0.14.1)
 
+# Not too long didn't read anyways
+
+Somewhat functional, some games are playable at best. No audio. 
+
 ## Graphics
 
 * Raylib (5.6.0-dev)
@@ -55,6 +59,7 @@ zig build run -- arg1 [path-to-rom-file]
 * [Pandocs](https://gbdev.io/pandocs/CPU_Instruction_Set.html)
 * [GbDocs](https://gbdev.io/gb-opcodes/optables/)
 * [RGBDS](https://rgbds.gbdev.io/docs/v0.9.3/gbz80.7#SUB_A,r8)
+
 
 
 
