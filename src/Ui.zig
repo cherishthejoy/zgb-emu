@@ -37,7 +37,7 @@ pub fn update(ctx: *SystemContext) void {
     rl.clearBackground(.gray);
 
     drawGameDisplay(ctx);
-    drawDebugTiles(ctx);
+    // drawDebugTiles(ctx);
 }
 
 pub fn createVideoTexture() rl.Texture2D {
