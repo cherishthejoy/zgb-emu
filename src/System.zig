@@ -15,6 +15,8 @@ const SystemContext = @import("SystemContext.zig").SystemContext;
 
 const Ui = @import("Ui.zig");
 
+pub const SystemError = error{};
+
 pub const System = struct {
     cpu: Cpu,
     bus: Bus,

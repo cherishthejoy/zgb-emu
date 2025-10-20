@@ -1,6 +1,11 @@
 const std = @import("std");
 const SystemContext = @import("SystemContext.zig").SystemContext;
 
+pub const DmaError = error{
+    TestError,
+    InitError,
+};
+
 pub const Dma = struct {
     active: bool,
     byte: u8,
